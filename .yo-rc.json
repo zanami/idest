@@ -1,0 +1,8 @@
+{
+  "generator-teka": {
+    "projectName": "idest",
+    "projectHost": "local.dev",
+    "projectSlug": "idest",
+    "baseTheme": "teka"
+  }
+}
