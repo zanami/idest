@@ -7,8 +7,9 @@ var gulp        = require('gulp'),
     sass        = require('gulp-sass'),
     browserSync = require('browser-sync').create(),
     plumber     = require('gulp-plumber'),
-    spritesmith = require('gulp.spritesmith'),
-    neat        = require('node-neat').includePaths;
+    spritesmith = require('gulp.spritesmith');
+//    ,
+//    neat        = require('node-neat').includePaths;
 
 //////////////////////////////
 // PATHS
@@ -64,7 +65,7 @@ gulp.task('js', function () {
 gulp.task('sass', function(){
     gulp.src(path.sass_src_S)
         .pipe(sass({
-            includePaths: ['styles'].concat(neat)
+            includePaths: ['styles']
         }))
         .on('error',console.log.bind(console))
         .pipe(minify())
@@ -76,7 +77,7 @@ gulp.task('sass', function(){
         .on('error',console.log.bind(console));
     gulp.src(path.sass_src_P)
         .pipe(sass({
-            includePaths: ['styles'].concat(neat)
+            includePaths: ['styles']
         }))
         .on('error',console.log.bind(console))
         .pipe(minify())

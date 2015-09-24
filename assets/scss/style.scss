@@ -1,4 +1,5 @@
-@import "bourbon";
-@import "neat";
+// twbs 3 styles and mixins
+// choose either one
+@import "base/bootstrap";
+//@import "base/bootstrap-custom";
 @import "base/_base";
-@import "bootstrap-neat/_bootstrap-neat";
