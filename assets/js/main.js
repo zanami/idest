@@ -6,9 +6,15 @@
  */
 
 (function($) {
-  Drupal.behaviors.teka_main = {
+  Drupal.behaviors.ideast_main = {
     attach: function (context, settings) {
-      //
+			$(window).scroll(function() {
+				if ($('.navbar').length && $('.navbar').offset().top > 50) {
+				            $('.navbar').addClass('top-nav-collapse');
+        } else {
+            $('.navbar').removeClass('top-nav-collapse');
+        }
+			});
     }
   };
 })(jQuery);

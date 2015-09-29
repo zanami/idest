@@ -223,9 +223,7 @@
 
       <div class="section">
         <div id="content">
-          <div class="column <?php $no_panels ? print 'container' : ''; ?>">
             <?php print render($page['content']); ?>
-          </div>
         </div>
       </div><!-- /.section, /#content -->
 
