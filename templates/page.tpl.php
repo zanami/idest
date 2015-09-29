@@ -85,7 +85,7 @@
 <div id="page-wrapper"><div id="page">
 
    <!-- Page Header -->
-  <header class="navbar navbar-custom navbar-fixed-top <?php if ($hide_site_name && $hide_site_slogan && !$logo && !$main_menu && !$secondary_menu) { print ' element-invisible'; } ?>">
+  <header class="navbar navbar-default <?php if ($hide_site_name && $hide_site_slogan && !$logo && !$main_menu && !$secondary_menu) { print ' element-invisible'; } ?>">
     <div class="container">
       <div class="navbar-header">
         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
