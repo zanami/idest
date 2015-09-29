@@ -187,7 +187,7 @@
 				</div>
         <div class="column">
           <a id="main-content"></a>
-          <?php if ((FALSE || $no_panels || $always_show_page_title) && $title): ?>
+          <?php if (false && ($no_panels || $always_show_page_title) && $title): ?>
             <h1 id="page-title" class="title">
               <?php print $title; ?>
             </h1>

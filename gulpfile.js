@@ -26,6 +26,7 @@ var path = {
       'dist/js/*.js'
   ],
   js_src : [
+			'assets/bootstrap-sass/assets/javascripts/bootstrap.min.js',
       'assets/js/*.js'
   ],
   js_dest : 'dist/js/'
