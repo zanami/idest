@@ -185,45 +185,43 @@
 				    </div>
 				  </div><!-- /.section, /#navigation -->
 				</div>
-        <div class="column container">
+        <div class="column">
           <a id="main-content"></a>
-          <?php if (($no_panels || $always_show_page_title) && $title): ?>
+          <?php if ((FALSE || $no_panels || $always_show_page_title) && $title): ?>
             <h1 id="page-title" class="title">
               <?php print $title; ?>
             </h1>
           <?php endif; ?>
 
           <?php if ($messages): ?>
-            <div id="messages">
+            <div id="messages" class="container">
               <?php print $messages; ?>
             </div>
           <?php endif; ?>
 
           <?php if (!empty($tabs['#primary']) || !empty($tabs['#secondary'])): ?>
-            <div id="tabs">
+            <div id="tabs" class="container">
               <?php print render($tabs); ?>
             </div>
           <?php endif; ?>
 
           <?php if ($action_links): ?>
-            <div id="action-links">
+            <div id="action-links" class="container">
               <?php print render($action_links); ?>
             </div>
           <?php endif; ?>
         </div>
 				<div id="highlighted-wrapper">
-				  <div class="container">
 				    <div id="highlighted">
 				      <div class="column">
 				        <?php print render($page['highlighted']); ?>
 				      </div>
 				    </div>
-				  </div><!-- /.section, /#navigation -->
 				</div>
 				
       </div> <!-- /.section, /#top-content -->
 
-      <div class="container">
+      <div class="section">
         <div id="content">
           <div class="column <?php $no_panels ? print 'container' : ''; ?>">
             <?php print render($page['content']); ?>
@@ -235,7 +233,7 @@
   </div> <!-- /#main-wrapper -->
 
 	<div id="footer-wrapper">
-	  <div class="container">
+	  <div class="section">
 	    <div id="footer">
 	      <div class="column">
 	        <?php print render($page['footer']); ?>
