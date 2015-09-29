@@ -1,3 +1,15 @@
 /**
  * Default content styles
  */
+
+/**
+ * collapse pannels etc
+ */
+
+.panel-heading .fa-chevron-up, .panel-heading .fa-chevron-down {
+	display: none;
+}
+
+.panel-heading.collapsed .fa-chevron-up, .panel-heading .fa-chevron-down {
+	display: inline-block;
+}
