@@ -9,3 +9,6 @@
 .rtl {
 	direction: rtl;
 }
+
+// extend bootstrap's bg-info etc.
+@include bg-variant('.bg-plain', #ffffff);
