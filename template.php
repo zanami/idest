@@ -1,4 +1,7 @@
 <?php
+
+define('KALATHEME_FONTAWESOME_CSS', '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+
 /**
  * Add theme_hooks here.
  */
@@ -17,6 +20,11 @@ function idest_preprocess_html(&$vars) {
  */
 /* -- Delete this line if you want to use this function
 function idest_preprocess_page(&$vars, $hook) {
+
+  // Use Font Awesome
+  if (theme_get_setting('fontawesome')) {
+    drupal_add_css($base['scheme'] . ":" . KALATHEME_FONTAWESOME_CSS, 'external');
+  }
 
 }
 // */
