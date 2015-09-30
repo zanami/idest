@@ -1,6 +1,6 @@
 <?php
 
-define('KALATHEME_FONTAWESOME_CSS', '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+define('KALATHEME_FONTAWESOME_CSS', '//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
 
 /**
  * Add theme_hooks here.
