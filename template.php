@@ -38,3 +38,21 @@ function idest_breadcrumb($variables) {
 
 }
 //*/
+
+/**
+ * Implements hook_menu_tree__menu_block().
+ * see Menu Block module docs https://www.drupal.org/node/1934824
+ */
+
+function idest_menu_tree__menu_block($variables) {
+	return '<ul class="menu nav nav-pills">' . $variables ['tree'] . '</ul>';
+}
+
+/**
+ * Implements hook_menu_link__menu_block().
+ * see Menu Block module docs https://www.drupal.org/node/1934824
+ */
+
+function idest_menu_link__menu_block() {
+	
+}
