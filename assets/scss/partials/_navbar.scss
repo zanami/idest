@@ -3,7 +3,7 @@
  */
 
 // Basics of a navbar
-$navbar-height:                    120px !default;
+$navbar-height:                    100px !default;
 $navbar-margin-bottom:             $line-height-computed !default;
 $navbar-border-radius:             $border-radius-base !default;
 $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
@@ -38,9 +38,13 @@ $navbar-custom-toggle-border-color:       darken($navbar-custom-bg, 15%) !defaul
 .navbar-custom {
   background-color: $navbar-custom-bg;
   border-color: $navbar-custom-border;
+	text-transform: uppercase;
 
   .navbar-brand {
     color: $navbar-custom-brand-color;
+	  padding: $navbar-padding-vertical $navbar-padding-horizontal;
+	  font-size: $font-size-large;
+	  line-height: $line-height-computed;
     &:hover,
     &:focus {
       color: $navbar-custom-brand-hover-color;
@@ -53,6 +57,7 @@ $navbar-custom-toggle-border-color:       darken($navbar-custom-bg, 15%) !defaul
   }
 
   .navbar-nav {
+		float: right;
     > li > a {
       color: $navbar-custom-link-color;
 
