@@ -5,33 +5,33 @@
 // Basics of a navbar
 $navbar-height:                    100px !default;
 $navbar-margin-bottom:             $line-height-computed !default;
-$navbar-border-radius:             $border-radius-base !default;
+$navbar-border-radius:             0;
 $navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
 $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
 $navbar-collapse-max-height:       340px !default;
 
-$navbar-custom-color:             #fff !default;
-$navbar-custom-bg:                $brand-primary !default;
+$navbar-custom-color:             $text-color !default;
+$navbar-custom-bg:                transparent !default;
 $navbar-custom-border:            darken($navbar-custom-bg, 6.5%) !default;
 
 // Navbar links
-$navbar-custom-link-color:                #fff !default;
+$navbar-custom-link-color:                $link-color !default;
 $navbar-custom-link-hover-color:          #fff !default;
-$navbar-custom-link-hover-bg:             darken($navbar-custom-bg, 15%) !default;
+$navbar-custom-link-hover-bg:             $brand-primary !default;
 $navbar-custom-link-active-color:         #fff !default;
-$navbar-custom-link-active-bg:            darken($navbar-custom-bg, 10%) !default;
+$navbar-custom-link-active-bg:            $brand-primary !default;
 $navbar-custom-link-disabled-color:       #ccc !default;
 $navbar-custom-link-disabled-bg:          transparent !default;
 
 // Navbar brand label
 $navbar-custom-brand-color:               $navbar-custom-link-color !default;
-$navbar-custom-brand-hover-color:         #fff !default;
+$navbar-custom-brand-hover-color:         $link-hover-color !default;
 $navbar-custom-brand-hover-bg:            none !default;
 
 // Navbar toggle
-$navbar-custom-toggle-hover-bg:           darken($navbar-custom-bg, 15%) !default;
+$navbar-custom-toggle-hover-bg:           $brand-primary !default;
 $navbar-custom-toggle-icon-bar-bg:        #fff !default;
-$navbar-custom-toggle-border-color:       darken($navbar-custom-bg, 15%) !default;
+$navbar-custom-toggle-border-color:       darken($brand-primary, 15%) !default;
 
 
 // Default navbar
