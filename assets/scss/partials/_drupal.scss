@@ -1,0 +1,13 @@
+/**
+ * Drupal overrides
+ */
+
+/**
+ * node edit form
+ */
+
+.page-node-edit, .page-user, .page-file, .page-node-add {
+	#content {
+		@include container-fixed($grid-gutter-width);
+	}
+}
