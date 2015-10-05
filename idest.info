@@ -14,5 +14,8 @@ regions[footer] = Footer
 stylesheets[all][] = dist/css/style.css
 stylesheets[print][] = dist/css/print.css
 
+; Override base theme tweaks
+stylesheets[screen][] = css/tweaks.css
+
 ; Scripts
 scripts[] = dist/js/main.js
