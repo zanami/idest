@@ -29,3 +29,16 @@
 
 }
 
+// unstyled panels for collapsible regions
+.panel.panel-unstyled {
+	margin:0;
+	background-color: transparent;
+	border: none;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+// accordion controls
+#advantages a.collapsed {
+	opacity: 0.7;
+}
