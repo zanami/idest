@@ -38,9 +38,8 @@
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
-.panel.panel-unstyled.advantage {
+.panel.panel-unstyled.advantage .panel-body {
 	background-color: $gray-lighter;
-	padding: $line-height-computed;
 }
 
 // accordion controls
