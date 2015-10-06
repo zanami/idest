@@ -2,9 +2,22 @@
 // Bootswatch
 // -----------------------------------------------------
 
-$web-font-path: "https://fonts.googleapis.com/css?family=Ubuntu:400,700&subset=latin,cyrillic" !default;
+// $web-font-path: "https://fonts.googleapis.com/css?family=Ubuntu:400,700&subset=latin,cyrillic" !default;
 
-@import url($web-font-path);
+// @import url($web-font-path);
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu'), url(https://fonts.gstatic.com/s/ubuntu/v8/Rbrel7WusHF7uMf4pVxmeOvvDin1pK8aKteLpeZ5c0A.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(https://fonts.gstatic.com/s/ubuntu/v8/4z2U46_RRLOfkoHsWJG3vyZ2oysoEQEeKwjgmXLRnTc.ttf) format('truetype');
+}
 
 // Navbar =====================================================================
 
