@@ -11,6 +11,5 @@
 }
 
 // extend bootstrap's bg-info etc.
-.bg-plain {
-	@include bg-variant('.bg-plain', #ffffff);
-}
+@include bg-variant('.bg-plain', #ffffff);
+@include text-emphasis-variant('.text-plain', $text-color);
