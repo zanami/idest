@@ -11,4 +11,6 @@
 }
 
 // extend bootstrap's bg-info etc.
-@include bg-variant('.bg-plain', #ffffff);
+.bg-plain {
+	@include bg-variant('.bg-plain', #ffffff);
+}
